@@ -1,5 +1,21 @@
 import java.util.Arrays;
 
+/**
+ * You have a rectangular board consisting of rows and columns,
+ * Initially, there is a coin on the top-left cell of your board. 
+ * Each cell of your board contains one of these letters:
+ * '*': Exactly one of your cells has letter '*'.
+ * 'U': If at time t the coin is on cell (i,j) and cell (i,j) has letter 'U', the coin will be on cell (i-1,j) at next time
+ * 'L': If at time t the coin is on cell (i,j) and cell (i,j) has letter 'L', the coin will be on cell (i,j-1) at next time
+ * 'D': If at time t the coin is on cell (i,j) and cell (i,j) has letter 'D', the coin will be on cell (i+1,j) at next time
+ * 'R': If at time t the coin is on cell (i,j) and cell (i,j) has letter 'R', the coin will be on cell (i,j+1) at next time
+ * When the coin reaches a cell that has letter '*', it will stay there permanently. When you punch on your board, 
+ * your timer starts and the coin moves between cells. Before starting the game, you can make operations to change 
+ * the board, such that you are sure that at or before time k the coin will reach the cell having letter '*'. 
+ * In each operation you can select a cell with some letter other than '*' and change the letter to 'U', 'L', 'R' 
+ * or 'D'. You need to carry out as few operations as possible in order to achieve your goal. Your task is to 
+ * find the minimum number of operations.
+ */
 public class SlidingCoin {
 
         public static int[][] steps;
