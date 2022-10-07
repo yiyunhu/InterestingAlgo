@@ -1,7 +1,25 @@
-# Some interesting TIL.
+# Some interesting TIL :/
+
+
+
+### CustomSort
+Sort by frequency of each numbers. If frequency are same, sort the number itself in ascending order.
+
+
+### NextPermutation
+Given an array of integers nums, find the next permutation of nums.
+
+
+### SlidingCoin (DFS)
+Find the minimum number of operations to achieve the destination.
+
 
 ### SpiralMatrix
-Given an m x n matrix, return all elements of the matrix in spiral order.
+Given an (m * n) matrix, return all elements of the matrix in spiral order.
+
+
+### TraverseImplicitBT
+Traverse an implicit binary tree by designated order.
 
 
 ### WordSearch (DFS)
