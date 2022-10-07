@@ -1,5 +1,7 @@
 # Some interesting TIL :/
 
+### FindLocks (BFS, Bitmask)
+Find the shortest path to check all locks.
 
 
 ### CustomSort
