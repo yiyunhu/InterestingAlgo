@@ -8,6 +8,10 @@ Find the shortest path to check all locks.
 Sort by frequency of each numbers. If frequency are same, sort the number itself in ascending order.
 
 
+### LongestSubstring
+Find the longest substring in two given strings.
+
+
 ### NextPermutation
 Given an array of integers nums, find the next permutation of nums.
 
